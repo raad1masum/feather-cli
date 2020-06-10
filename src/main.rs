@@ -1,11 +1,12 @@
 use colored::*;
-use whoami::*;
 use std::env;
 use std::io::{stdin, stdout, Write};
 use std::path::Path;
 use std::process::{Child, Command, Stdio};
+use whoami::*;
 
 fn main() {
+    println!("{}", env::current_dir().unwrap().as_os_str().to_str().unwrap().to_string());
     loop {
         print!("{} {} ", whoami::username().red(), "$".blue());
         stdout().flush();
