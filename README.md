@@ -1,4 +1,5 @@
-# feather-shell<br> ![build](https://api.travis-ci.com/raad1masum/personal-site.svg?branch=master&status=passed)
+# feather-shell
+![build](https://api.travis-ci.com/raad1masum/personal-site.svg?branch=master&status=passed)<br>
 🕊 A custom linux shell written in Rust.
 
 ## Installation
