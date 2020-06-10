@@ -6,9 +6,9 @@ use std::process::{Child, Command, Stdio};
 use whoami::*;
 
 fn main() {
-    println!("{}", env::current_dir().unwrap().as_os_str().to_str().unwrap().to_string());
     loop {
-        print!("{} {} ", whoami::username().red(), "$".blue());
+        let mut current_path = env::current_dir().unwrap().as_os_str().to_str().unwrap().to_string();
+        print!("{}:{} ~{} ", whoami::username().red(), current_path, "$".blue());
         stdout().flush();
 
         let mut input = String::new();
