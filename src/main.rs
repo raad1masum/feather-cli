@@ -7,8 +7,9 @@ use whoami::*;
 
 fn main() {
     loop {
+        let mut username = whoami::username();
         let mut current_path = env::current_dir().unwrap().as_os_str().to_str().unwrap().to_string();
-        print!("{}:{} ~{} ", whoami::username().red(), current_path, "$".blue());
+        print!("{}:{} {} ", username.red(), current_path, "$".blue());
         stdout().flush();
 
         let mut input = String::new();
