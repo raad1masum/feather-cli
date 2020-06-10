@@ -6,9 +6,8 @@ use std::path::Path;
 use std::process::{Child, Command, Stdio};
 
 fn main() {
-    println!("{}", whoami::username());
     loop {
-        print!("{} ", "$".red());
+        print!("{} {} ", whoami::username().red(), "$".blue());
         stdout().flush();
 
         let mut input = String::new();
