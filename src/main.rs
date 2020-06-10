@@ -3,6 +3,9 @@ use std::process::Command;
 
 fn main() {
     loop {
+        print!("$ ");
+        stdout().flush();
+
         let mut input = String::new();
         stdin().read_line(&mut input).unwrap();
 
