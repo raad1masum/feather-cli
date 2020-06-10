@@ -9,7 +9,7 @@ fn main() {
     loop {
         let mut username = whoami::username();
         let mut current_path = env::current_dir().unwrap().as_os_str().to_str().unwrap().to_string();
-        print!("{}:{} {} ", username.red(), current_path.green(), "$".blue());
+        print!("{}:{} {} ", username.red(), current_path.green(), "$".white());
         stdout().flush();
 
         let mut input = String::new();
