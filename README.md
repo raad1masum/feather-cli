@@ -1,5 +1,5 @@
-# feather-shell ![build](https://api.travis-ci.com/raad1masum/personal-site.svg?branch=master&status=passed)
-🕊 A custom linux shell written in Rust.
+# feather-cli ![build](https://api.travis-ci.com/raad1masum/personal-site.svg?branch=master&status=passed)
+🕊 A super light, super-fast Linux CLI.
 <br>
 <br>
 ![gravity](./assets/gravity.jpg)
@@ -13,8 +13,8 @@ Install the [latest release](https://github.com/raad1masum/feather-shell/release
 
 ## 🚀 Local Development
 ```sh
-./install.sh
-cargo run
+./make.sh
+./bin/feather
 ```
 ## 👨‍💻 Contact
 
