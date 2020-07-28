@@ -11,8 +11,13 @@ int main(int argc, char *argv[]) {
         char pre = '$';
 
         printf("%c ", pre);
-        
+
         string command; cin >> command;
-        system(command.c_str());
+
+        if (command == "exit") {
+            return 0;
+        } else {
+            system(command.c_str());
+        }    
     }
 }
