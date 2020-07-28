@@ -7,10 +7,12 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-    char pre = '$';
+    while (true) {
+        char pre = '$';
 
-    printf("%c ", pre);
-    
-    string command; cin >> command;
-    system(command.c_str());
+        printf("%c ", pre);
+        
+        string command; cin >> command;
+        system(command.c_str());
+    }
 }
