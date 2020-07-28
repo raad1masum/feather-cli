@@ -13,7 +13,6 @@ Install the [latest release](https://github.com/raad1masum/feather-shell/release
 
 ## 🚀 Local Development
 ```sh
-./make.sh
 ./bin/feather
 ```
 ## 👨‍💻 Contact
