@@ -2,11 +2,7 @@
 🕊 A super light, super-fast Linux CLI.
 <br>
 <br>
-![gravity](./assets/gravity.jpg)
-<br>
-![jedi](./assets/jedi.jpg)
-<br>
-![paradox](./assets/paradox.jpg)
+![gravity](./assets/gravity.png)
 
 ## 🔌 Installation
 Install the [latest release](https://github.com/raad1masum/feather-shell/releases).
