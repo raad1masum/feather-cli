@@ -21,7 +21,9 @@ int main(int argc, char *argv[]) {
     
     while (true) {
         color_red();
-        printf("%s %c ", user, pre);
+        printf("%s ", user);
+        color_green();
+        printf("%c ", pre);
         color_reset();
 
         string command; cin >> command;
@@ -43,19 +45,19 @@ void color_yellow() {
 }
 
 void color_green() {
-  printf("\032[1;32m");
+  printf("\033[1;32m");
 }
 
 void color_blue() {
-  printf("\034[1;34m");
+  printf("\033[1;34m");
 }
 
 void color_cyan() {
-  printf("\036[1;36m");
+  printf("\033[1;36m");
 }
 
 void color_magenta() {
-  printf("\035[1;35m");
+  printf("\033[1;35m");
 }
 
 void color_reset() {
