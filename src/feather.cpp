@@ -7,7 +7,6 @@
 using namespace std;
 
 void color_red();
-void color_yellow();
 void color_green();
 void color_blue();
 void color_cyan();
@@ -38,10 +37,6 @@ int main(int argc, char *argv[]) {
 
 void color_red() {
   printf("\033[1;31m");
-}
-
-void color_yellow() {
-  printf("\033[1;33m");
 }
 
 void color_green() {
