@@ -7,10 +7,12 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
+    char *user = getenv("USER");
+    char *appdata = getenv("APPDATA");
     char pre = '$';
     
     while (true) {
-        printf("%c ", pre);
+        printf("%s %c ", user, pre);
 
         string command; cin >> command;
 
