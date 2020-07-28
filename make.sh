@@ -1,3 +1,3 @@
 #!/bin/bash
 
-g++ src/main.cpp -o bin/main
+g++ src/feather.cpp -o bin/feather
