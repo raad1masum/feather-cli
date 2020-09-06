@@ -5,7 +5,7 @@
 ![gravity](./assets/gravity.png)
 
 ## 🔌 Installation
-Install the [latest release](https://github.com/raad1masum/feather-shell/releases).
+Install the [latest release](https://github.com/raad1masum/feather-cli/releases).
 
 ## 🚀 Local Development
 ```sh
